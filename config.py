@@ -86,8 +86,8 @@ class BaseConfiguration(object):
                     'password': config_data['NOTIFICATION_USER_PASSWORD'],
                     'email': 'admin@localhost'}
 
-    SUPPORTED_LANGUAGES = {'en': 'English', 'fr': 'Francais'}
-    BABEL_DEFAULT_LOCALE = 'en'
+    SUPPORTED_LANGUAGES = {'en': 'English', 'fr': 'Francais', 'ru': 'Russian'}
+    BABEL_DEFAULT_LOCALE = 'ru'
     BABEL_DEFAULT_TIMEZONE = 'UTC'
 
     check_db_connection(SQLALCHEMY_DATABASE_URI)

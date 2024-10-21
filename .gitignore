@@ -5,6 +5,7 @@ __pycache__/
 
 .idea/
 .vscode/
+.venv/
 
 __archive__
 __reference__
